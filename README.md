@@ -2,7 +2,6 @@
 
 <b>Preparing</b>
 <ol>
-        <li><code>composer install</code></li>
         <li><code>sudo apt update</code></li>
         <li><code>sudo apt install php libapache2-mod-php</code></li>
         <li><code>php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"</code></li>
@@ -14,6 +13,8 @@
         <li><code>sudo apt install php-dom</code></li>
         <li><code>sudo apt install php-mbstring</code></li>
         <li><code>sudo apt install unzip -y</code></li>
+        <li><code>composer install</code></li>
+        <li><code>chmod 777 /var/www/html/oci-arm-host-capacity</code></li>
     </ol>
 
 <p align="center">
