@@ -1,5 +1,21 @@
 # Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory
 
+<b>Preparing</b>
+<ol>
+        <li><code>composer install</code></li>
+        <li><code>sudo apt update</code></li>
+        <li><code>sudo apt install php libapache2-mod-php</code></li>
+        <li><code>php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"</code></li>
+        <li><code>php composer-setup.php</code></li>
+        <li><code>sudo apt-get install zlibc -y</code></li>
+        <li><code>php -r "unlink('composer-setup.php');"</code></li>
+        <li><code>sudo mv composer.phar /usr/local/bin/composer</code></li>
+        <li><code>sudo apt install php-curl</code></li>
+        <li><code>sudo apt install php-dom</code></li>
+        <li><code>sudo apt install php-mbstring</code></li>
+        <li><code>sudo apt install unzip -y</code></li>
+    </ol>
+
 <p align="center">
   <a href="https://github.com/hitrov/oci-arm-host-capacity/actions"><img src="https://github.com/hitrov/oci-arm-host-capacity/workflows/Tests/badge.svg" alt="Test"></a>
   <a href="https://discord.gg/fKZQQStjMN"><img src="https://img.shields.io/discord/893301913662148658?label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
